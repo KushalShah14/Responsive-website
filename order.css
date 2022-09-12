@@ -1,0 +1,52 @@
+#Home::before {
+    content: '';
+    position: absolute;
+    background: url("Food\ Image\ 2.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 160%;
+    z-index: -1;
+}
+
+#Newhome {
+    justify-content: center;
+    align-items: center;
+}
+.Header {
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    align-items: center;
+    padding-left: 500px;
+}
+.pizza{
+    display: inline;
+    padding: 34px;
+    width: 20%;
+    position: relative;
+    text-align: center;
+    color: White;  
+    font-size: 34px;  
+}
+.center{
+    position: absolute;
+    top: -90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 20px ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+.center:Hover{
+    color:white;
+    background-color:red;    
+  }
+ 
+#Burger img{
+   margin-top: 30px;
+}
